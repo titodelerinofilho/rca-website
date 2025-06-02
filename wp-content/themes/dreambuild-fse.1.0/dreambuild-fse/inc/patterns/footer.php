@@ -166,11 +166,11 @@ return array(
 <div class="wp-block-group has-background" style="background-color:#001c47;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"layout":{"type":"constrained","contentSize":"1170px"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"border":{"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"width":"0px","style":"none"}},"spacing":{"padding":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group" style="border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-style:none;border-left-width:0px;padding-top:0;padding-bottom:0"><!-- wp:paragraph -->
-<p>DreamBuild  FSE</p>
+<p>RCA Transportes e Logística</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"left"} -->
-<p class="has-text-align-left">Design by Grace Themes </p>
+<p class="has-text-align-left">Desenvolvido por DF Consultoria</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
