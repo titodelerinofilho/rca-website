@@ -10,9 +10,10 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /var/www/html
 
-RUN curl -O https://wordpress.org/latest.tar.gz \
-    && tar -xvf latest.tar.gz --strip-components=1 \
-    && rm latest.tar.gz \
-    && chown -R www-data:www-data /var/www/html
+RUN usermod -u 1000 www-data \
+    && groupmod -g 1000 www-data
 
-RUN chmod -R 755 /var/www/html
+# Configuração de permissões
+RUN chown -R www-data:www-data /var/www/html
+
+USER www-data

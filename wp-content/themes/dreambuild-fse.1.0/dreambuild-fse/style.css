@@ -1,0 +1,186 @@
+/*
+Theme Name: DreamBuild FSE
+Theme URI: https://gracethemes.com/themes/free-construction-agency-wordpress-theme/
+Author: Grace Themes
+Author URI: https://gracethemes.com/
+Description: The DreamBuild FSE is free construction agency WordPress theme is design for home builders and construction business website. This multi-purpose WordPress theme is also ideal for construction company, interior designers, landscape designers, renovation, repair, and other creative businesses. The homepage of this theme is professional and stunning. It is an extremely appealing theme and it comes with modern architecture that suits any construction business. This theme is SEO-optimized. It means you do not need to worry about your rankings or hire an expert for your SEO needs. This WordPress theme is extremely flexible and dynamic. One can easily use this theme without panicking about the resolution quality. This theme is compatible with multiple devices. It means you can use it on devices such as smartphones, laptops, PCs, and tablets. Also, if you are in search of a mobile-friendly option, you can choose this theme as it is qualified for the Google mobile-friendly test. Demo: https://gracethemesdemo.com/dreambuild/
+
+Version: 1.0
+License: GNU General Public License version 2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: dreambuild-fse
+Requires PHP:  5.6
+Tested up to: 6.6
+Tags:blog, news, one-column, two-columns, right-sidebar, block-styles, custom-colors, editor-style, custom-background, custom-menu, featured-images, template-editing, full-site-editing, block-patterns,  threaded-comments, wide-blocks, translation-ready
+DreamBuild  FSE WordPress Theme has been created by Grace Themes(gracethemes.com), 2024.
+DreamBuild  FSE WordPress Theme is released under the terms of GNU GPL
+*/
+body.page-template-front .site-main-header {  
+	width:100%; 
+	z-index:999;
+	border-bottom:none !important;
+}
+.site-main-header{  
+	position:relative;
+	border-bottom:1px solid #eee !important;
+}
+.clear{ clear:both; }
+
+.RT-Logo{ position:relative; }
+.QuotColumn{ position:relative;}
+
+.header-left-box{ position:relative; background-color:#febc34 !important}
+.header-left-box::before{ background-color:#febc34; content: ""; display: block; height: 100%; position: absolute; left: -999990px; top: 0; width: 999999px;}
+.header-left-box::after { content:''; position: absolute; right: -49px; top: 0; width:0; height: 0; border-top: 50px solid #febc34; border-right: 50px solid transparent;}
+
+.site-header-menu{ padding:8px 0 !important;}
+/*dropdown menu background color*/
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container{ background-color:#00245c;}
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container li{ padding:5px 0; border-bottom:1px solid #5f7fb2 !important;}
+.wp-block-navigation__submenu-container.wp-block-navigation-submenu{ padding-top:30px !important}
+.wp-block-navigation__submenu-container.wp-block-navigation-submenu li ul{ padding-top:0 !important; left:100% !important; right:auto !important;}
+
+
+/* = What We Offer Section 1 CSS
+----------------------------------------------- */
+.offer_4_boxes{ position:relative; text-align:center; border:2px solid #f0f0f0; }
+.offer_4_boxes:hover{ border:2px solid #ff5e15; }
+.offer_4_boxes::before {content: ''; width: 0; height:0; border-top: 50px solid #f0f0f0 !important; border-right: 50px solid transparent !important; position:absolute; top:0px; left:0px;}
+.offer_4_boxes::after {content: ''; width: 0; height: 0; border-bottom: 50px solid #f0f0f0 !important; border-left: 50px solid transparent !important; position:absolute; bottom:0px; right: 0px;}
+.offer_4_boxes:hover:before{ border-top-color:#ff5e15  !important}
+.offer_4_boxes:hover:after{ border-bottom-color:#ff5e15  !important}
+
+.db_recent_work_box{ position:relative;}
+.db_recent_work_box .db_cover_title .wp-block-cover__inner-container{ position:absolute; bottom:50px;}
+
+.db_recent_work_box .db_cover_title::after {content: ''; width: 100%; position: absolute; bottom: 0; box-shadow: 0px 50px 220px 220px rgba(0, 35, 89, 1) !important;}
+.db_cover_title a{ color:#fff !important;}
+
+/* = Welcome Section 2 CSS
+----------------------------------------------- */
+.list_bx .wp-block-image{ margin-top:-5px !important}
+.sec_3_column_01 .wp-block-image{ width:100% !important; height:100% !important}
+.sec_3_column_01 .wp-block-image img{ width:100% !important; height:100% !important}
+.sec_3_column_02 .db_plus_button a.wp-block-button__link{ background:transparent !important;}
+.sec_3_column_02 .db_plus_button a.wp-block-button__link:hover{ background:transparent !important; border-color:#b1b9ce !important; color:#b1b9ce !important}
+
+
+/* = Sidebar CSS
+----------------------------------------------- */
+.st-widgetBX ul.wp-block-latest-posts li{ margin-bottom:20px; min-height:80px;}
+.st-widgetBX ul.wp-block-latest-posts li a.wp-block-latest-posts__post-title{ margin-bottom:5px !important; display:block; line-height:20px;}
+
+
+/* = Blog page Design CSS
+----------------------------------------------- */
+ul.blog-list-style{ 
+	margin:0; 
+	padding:0; 
+}
+ul.blog-list-style li{ 
+	margin-bottom:25px; 
+	padding:30px;
+	border-radius:10px; 
+	display:flow-root; 
+	background-color:#f4f4f4;
+	border:1px solid #eeeeee;
+	
+}
+ul.blog-list-style li .blog-thumbx{ 
+	width:40%; 
+	float:left;
+	margin:0 35px 20px 0;
+}
+
+ul.blog-list-style li .blog-thumbx.wp-block-post-featured-image a,
+ul.blog-list-style li .blog-thumbx.wp-block-post-featured-image img{ height:auto;}
+
+/* = Contact Form 7 CSS
+----------------------------------------------- */
+.wpcf7{ 
+margin:30px 0 0;padding:0;
+}
+.wpcf7 input[type="text"], 
+.wpcf7 input[type="tel"], 
+.wpcf7 input[type="email"]{ 
+	width:40%;
+	border:1px solid #cccccc;
+	box-shadow:inset 1px 1px 2px #ccc;
+	color:#797979;
+	margin-bottom:0;
+	height:40px;
+	padding:0 15px;
+}	
+.wpcf7 textarea{
+	color:#797979;
+	margin-bottom:25px;
+	border:1px solid #cccccc;
+	box-shadow:inset 1px 1px 2px #ccc;
+	padding:10px;
+	width:60%;
+	height:160px;
+	font-size:12px;
+}
+.wpcf7 input[type="submit"]{
+	border-radius:40px;
+	font-weight:600;
+	font-size:16px;
+	cursor:pointer;
+	background-color:#60c19f;
+	padding:20px 40px;
+	color:#ffffff;
+	width:auto;
+	border:none;
+	text-transform:uppercase;
+}
+.wpcf7 input[type="submit"]:hover{
+	background-color:#101010;
+}
+
+/* = Footer CSS
+----------------------------------------------- */
+.site-footer{ 
+	position:relative;
+}
+.site-footer h3.wp-block-heading{ 
+	position:relative; 
+}
+
+ul.fs-footer-post{ 
+	margin:0; 
+	padding:0;
+}
+ul.fs-footer-post li{ 
+	list-style:none; 
+	margin-bottom:30px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__featured-image{ 
+	margin-top:6px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__featured-image img{ 
+	border-radius:10px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__post-title{ 
+	margin-bottom:15px; 
+	display:block; 
+	line-height:22px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__post-title:hover{ 
+	color:#8cc73e;
+}
+footer.wp-block-template-part{ 
+	margin-block-start:0 !important
+}
+
+.Footer-QuickLinks{ 
+	list-style:none !important; 
+	padding:0 !important;
+}
+.Footer-QuickLinks li{ 
+	list-style:none !important; 
+	padding:5px 0 5px 0 !important;
+}
+.Footer-QuickLinks li a:hover{ 
+	text-decoration:none; 
+}
+.footer-latest-news li{ margin-bottom:10px;}
